@@ -1,0 +1,37 @@
+body {
+    background: linear-gradient(
+        90deg,
+        rgba(2, 0, 36, 1) 0%,
+        rgba(174, 106, 242, 0.5662640056022409) 46%,
+        rgba(65, 157, 181, 0.4598214285714286) 100%,
+        rgba(0, 212, 255, 1) 100%
+    );
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+}

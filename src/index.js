@@ -66,8 +66,14 @@ function scrollToRenderedMarkup() {
       behavior: 'smooth',
       block: 'end',
     });
-  }, 250);
+  }, 25000);
 }
+
+// const element = document.getElementById('.my-element-selector');
+// element.scrollIntoView({
+//   behavior: 'smooth',
+//   block: 'end',
+// });
 
 function openModal(event) {
   if (event.target.classList.contains('image')) {

@@ -17,12 +17,12 @@ export default class LoadMoreBtn {
 
   enable() {
     this.refs.button.disabled = false;
-    this.refs.label.textContent = 'Show more';
+    this.refs.label.textContent = 'Показати ще';
   }
 
   disable() {
     this.refs.button.disabled = true;
-    this.refs.label.textContent = 'Loading...';
+    this.refs.label.textContent = 'Завантажується...';
   }
 
   hide() {
